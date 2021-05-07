@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg1{
+    background-color: #153956;
+}
+.bg2{
+    background-color: gray;
+}
+.darkgray{
+    color: #9e9e9e;
+}
+.fblue{
+    color: #153956;
+}
+
+
+.container{
+    width:100%;
+    clear: both;
+}
+/* Myprofile */
+.myprofile{
+    width: 20%;
+    height: 100vh;
+    padding-top: 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    float: left;
+    
+}
+.profileimg{
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+ ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: 2s;
+
+}
+ ul li a{
+     font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+ ul li:hover{
+     background-color: rgba(0, 0, 0, 0.247);
+}
+.submenu{
+    margin-left: 130px;
+
+    display: none;
+}
+ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin-top: 10px;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.247) ;
+}
+.footer {
+    margin-top: 30px;
+    padding: 20px 34px 0px;
+}
+
+.i {
+    font-size: 20px;
+    transition: 1s;
+    padding: 0px 10px 0px;
+}
+
+.i:hover {
+    color: #00000070;
+}
+/* Banner */
+.banner{
+    width: 80%;
+    height: 100vh;
+    float: right;
+}
+.bgimg {
+    background-image: url('portfolio_img/bg_homepage.8b4cf4a.jpg');
+    background-size: cover;
+}
+.innerheader{
+    width: 100%;
+    height: 100vh;
+}
+.bgtransparent{
+    background-color:rgb(0 0 0 / 43%);
+}
+.fwhite{
+    color: white;
+}
+.header {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+.headerp{
+    font-size: 45px;
+}
+/* About me */
+
+.selfintro{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+/* Myintro */
+.myintro{
+    width: 30%;
+    height: 250px;
+    float: left;
+}
+.myimg{
+    width: 150px;
+    height: 150px;
+}
+/* Aboutme */
+.aboutme{
+    width: 70%;
+    height: 200px;
+    padding-top: 30px;
+    float: right;
+
+}
+.textcenter{
+    text-align: center;
+}
+.fgray{
+    color: #9e9e9e75;
+}
+/* Education */
+.Education {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+}
+
+.maindiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.innerdiv {
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    background-color:#153956;
+
+    position: relative;
+    margin-top: 20px;
+}
+
+.innerdiv::before {
+    content: '';
+    width: 31px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: -31%;
+    border: 2px solid #f07b61;
+}
+
+.innerdiv::after {
+    content: '';
+    width: 95px;
+    height: 1px;
+    position: absolute;
+    top: 35px;
+    left: -23%;
+    background-color: #f07b61;
+    border: 1px solid #f07b61;
+}
+.mt20 {
+    margin-top: 20px;
+}
+/* Skill */
+section {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+section .section-box2 {
+    width: 90%;
+    height: 250px;
+    margin: auto;
+}
+
+
+section .section-box2 .skill {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+}
+
+section .section-box2 .mainbox1 {
+    width: 80%;
+    height: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox1 .innerbox1 {
+    width: 98%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox2 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox2 .innerbox2 {
+    width: 90%;
+    height: 20px;
+    background-color: #f07b61;
+    ;
+    text-align: center;
+}
+
+section .section-box2 .mainbox3 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox3 .innerbox3 {
+    width: 95%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox4 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox4 .innerbox4 {
+    width: 80%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox5 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox5 .innerbox5 {
+    width: 87%;
+    height: 20px;
+    background-color: #f07b61;
+    ;
+    text-align: center;
+}
+
+section .section-box2 .mainbox6 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox1 .innerbox6 {
+    width: 90%;
+    height: 20px;
+    background-color:#f07b61;
+    text-align: center;
+}
+
+/* Mywork */
+.work{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Myintro */
+.Login{
+    width: 100%;
+height: 301px;
+justify-content: space-around;
+box-sizing: border-box;
+
+
+}
+.Logimg1{
+    width: 25%;
+    height: 300px;
+}
+.Loginimg1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #153956;
+    border-radius: 3%;
+
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.bt2 {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f07b61;
+    color: white;
+}
+/* Contact */
+.contact{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+/* Contactform */
+.contactform{
+    width: 33.33%;
+    height: 400px;
+    background-color: #f07b61;
+
+}
+.Label {
+    width: 75%;
+    height: 20px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+.Label3 {
+    width: 75%;
+    height: 110px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 29px;
+}
+.bt1 {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 20px;
+    color: white;
+}
+/* Contactmap */
+.contactmap{
+    width: 33.33%;
+    height: 400px;
+
+}
+/* Contactinfo */
+.contactinfo{
+    width: 33.33%;
+    height: 400px;
+    font-size: 23px;
+    background-color: #f07b61;
+
+}
+
+
+
+@media only screen and (min-width: 425px) and (max-width:768px){
+    .container{
+        width:100%;
+        clear: both;
+    }
+    .myprofile{
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        float: left;
+        text-align: left;
+        
+    }
+    .profileimg{
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .footer {
+        margin-top: 160px;
+        margin-left: 215px;
+        padding: 20px 34px 0px;
+    }
+    
+    .i {
+        font-size: 20px;
+        transition: 1s;
+        padding: 0px 10px 0px;
+    }
+    
+    .i:hover {
+        color: #00000070;
+    }
+    /* Banner */
+    .banner{
+        width: 100%;
+    }
+    .h1{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .headerp{
+        font-size: 25px;
+    }
+    .header {
+        position: relative;
+        top: 250px;
+        text-align: center;
+    }
+
+
+    /* Menu */
+.menu{
+    width: 100%;
+    margin: -119px 5px;
+}
+    .menuicon{
+        display: block;
+    }
+    ul li{
+        text-align:justify;
+        padding: 5px;
+        display: inline-block;
+    }
+  .submenu ul li{
+       width: 100px;
+       text-align:justify;
+       float: right;
+       padding: 5px;
+       display: inline;
+   }
+   ul li a{
+       font-size: 10px;
+   }
+   ul li:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.submenu{
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+   margin-left: 50px;
+   display: none;
+}
+ul li:hover .submenu{
+   display: block;
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.295);
+   margin-top: 10px;
+}
+.selfintro{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.myintro{
+    width: 100%;
+    height: 200px;
+}
+.aboutme{
+    width: 100%;
+    height: 200px;
+}
+.textcenter{
+    text-align: center;
+}
+/* Education */
+.Education {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+}
+
+.maindiv {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.innerdiv {
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    background-color:#9e9e9e75 ;
+    position: relative;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.innerdiv::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: -62%;
+    border: 2px solid gray;
+}
+
+.innerdiv::after {
+    content: '';
+    width: 65px;
+    height: 1px;
+    position: absolute;
+    top: 35px;
+    left: -43%;
+    background-color: gray;
+    border: 1px solid gray;
+}
+/* Mywork */
+.work{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: blue;
+}
+
+/* Myintro */
+.Login{
+    width: 100%;
+}
+.Logimg1{
+    width: 100%;
+    height: 300px;
+}
+.Loginimg1 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.contact{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+/* Contactform */
+.contactform{
+    width: 100%;
+    height: 400px;
+
+}
+.Label {
+    width: 75%;
+    height: 20px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+.Label3 {
+    width: 75%;
+    height: 110px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 29px;
+}
+.bt1 {
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 75px;
+    background-color: #4f4d4da1;
+    color: white;
+}
+/* Contactmap */
+.contactmap{
+    width: 100%;
+    height: 400px;
+
+}
+/* Contactinfo */
+.contactinfo{
+    width: 100%;
+    height: 400px;
+
+}
+
+}
