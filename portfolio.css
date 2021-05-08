@@ -177,7 +177,7 @@ ul li:hover .submenu{
     border-radius: 50%;
     position: absolute;
     top: 20px;
-    left: -31%;
+    left: -30%;
     border: 2px solid #f07b61;
 }
 
@@ -187,7 +187,7 @@ ul li:hover .submenu{
     height: 1px;
     position: absolute;
     top: 35px;
-    left: -23%;
+    left: -22%;
     background-color: #f07b61;
     border: 1px solid #f07b61;
 }
@@ -202,7 +202,7 @@ section {
 }
 
 section .section-box2 {
-    width: 90%;
+    width: 80%;
     height: 250px;
     margin: auto;
 }
@@ -302,6 +302,7 @@ section .section-box2 .mainbox1 .innerbox6 {
 /* Mywork */
 .work{
     width: 100%;
+    height: 100vh;
     margin: auto;
     text-align: center;
 }
@@ -309,7 +310,7 @@ section .section-box2 .mainbox1 .innerbox6 {
 /* Myintro */
 .Login{
     width: 100%;
-height: 301px;
+height: 327px;
 justify-content: space-around;
 box-sizing: border-box;
 
@@ -346,12 +347,11 @@ box-sizing: border-box;
 .contact{
     width: 100%;
     box-sizing: border-box;
-    height: 100vh;
 }
 /* Contactform */
 .contactform{
     width: 33.33%;
-    height: 400px;
+    height: 300px;
     background-color: #f07b61;
 
 }
@@ -360,34 +360,34 @@ box-sizing: border-box;
     height: 20px;
     background-color: white;
     margin-top: 25px;
-    margin-left: 32px;
+    margin-left: 0px;
 }
 .Label3 {
     width: 75%;
     height: 110px;
     background-color: white;
     margin-top: 25px;
-    margin-left: 29px;
+    margin-left: 0px;
 }
 .bt1 {
     width: 200px;
     height: 30px;
     border: 2px solid white;
     border-radius: 5px;
-    margin-left: 35px;
+    margin-left:0px;
     margin-top: 20px;
     color: white;
 }
 /* Contactmap */
 .contactmap{
     width: 33.33%;
-    height: 400px;
+    height: 300px;
 
 }
 /* Contactinfo */
 .contactinfo{
     width: 33.33%;
-    height: 400px;
+    height: 300px;
     font-size: 23px;
     background-color: #f07b61;
 
@@ -422,7 +422,7 @@ box-sizing: border-box;
     .i {
         font-size: 20px;
         transition: 1s;
-        padding: 0px 10px 0px;
+        padding: 0px 7px 0px;
     }
     
     .i:hover {
@@ -536,7 +536,7 @@ ul li:hover .submenu{
     position: absolute;
     top: 20px;
     left: -62%;
-    border: 2px solid gray;
+    border: 2px solid;
 }
 
 .innerdiv::after {
@@ -546,24 +546,24 @@ ul li:hover .submenu{
     position: absolute;
     top: 35px;
     left: -43%;
-    background-color: gray;
-    border: 1px solid gray;
+    border: 1px solid;
 }
 /* Mywork */
 .work{
     width: 100%;
     margin: auto;
     text-align: center;
-    background-color: blue;
 }
 
 /* Myintro */
 .Login{
     width: 100%;
+    height: 192%;
 }
 .Logimg1{
     width: 100%;
     height: 300px;
+    /* background-color: blueviolet; */
 }
 .Loginimg1 {
     width: 200px;
@@ -578,7 +578,7 @@ ul li:hover .submenu{
 /* Contactform */
 .contactform{
     width: 100%;
-    height: 400px;
+    height: 300px;
 
 }
 .Label {
@@ -586,35 +586,41 @@ ul li:hover .submenu{
     height: 20px;
     background-color: white;
     margin-top: 25px;
-    margin-left: 32px;
+    margin-left: 0px;
 }
 .Label3 {
     width: 75%;
     height: 110px;
     background-color: white;
     margin-top: 25px;
-    margin-left: 29px;
+    margin-left: 0px;
 }
 .bt1 {
     width: 200px;
     height: 30px;
     border: 2px solid white;
     border-radius: 5px;
-    margin-left: 75px;
+    margin-left: 0px;
     background-color: #4f4d4da1;
     color: white;
 }
 /* Contactmap */
 .contactmap{
     width: 100%;
-    height: 400px;
+    height: 300px;
 
 }
 /* Contactinfo */
 .contactinfo{
     width: 100%;
-    height: 400px;
+    height: 300px;
 
 }
 
 }
+
+
+
+
+
+
