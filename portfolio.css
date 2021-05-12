@@ -49,9 +49,9 @@
 .btn{
     display: none;
 }
-.btn1{
+/* .btn1{
     display: none;
-}
+} */
 
  ul li{
     list-style-type: none;
@@ -221,12 +221,13 @@ section .section-box2 {
 section .section-box2 .skill {
     width: 100%;
     margin: auto;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 section .section-box2 .mainbox1 {
     width: 80%;
     height: 20px;
+    margin: auto;
     background-color: #153956;
 }
 
@@ -240,6 +241,8 @@ section .section-box2 .mainbox1 .innerbox1 {
 section .section-box2 .mainbox2 {
     width: 80%;
     height: 20px;
+    margin: auto;
+
     margin-top: 20px;
     background-color: #153956;
 }
@@ -255,6 +258,8 @@ section .section-box2 .mainbox2 .innerbox2 {
 section .section-box2 .mainbox3 {
     width: 80%;
     height: 20px;
+    margin: auto;
+
     margin-top: 20px;
     background-color: #153956;
 }
@@ -269,6 +274,8 @@ section .section-box2 .mainbox3 .innerbox3 {
 section .section-box2 .mainbox4 {
     width: 80%;
     height: 20px;
+    margin: auto;
+
     margin-top: 20px;
     background-color: #153956;
 }
@@ -283,6 +290,8 @@ section .section-box2 .mainbox4 .innerbox4 {
 section .section-box2 .mainbox5 {
     width: 80%;
     height: 20px;
+    margin: auto;
+
     margin-top: 20px;
     background-color: #153956;
 }
@@ -450,6 +459,7 @@ box-sizing: border-box;
         padding: 10px;
         float: left;
         text-align: left;
+        z-index: 15;
         
     }
     .profileimg{
@@ -567,6 +577,109 @@ ul li:hover .submenu{
 .textcenter{
     text-align: center;
 }
+/* Skill */
+section {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+section .section-box2 {
+    width: 80%;
+    height: 250px;
+    margin: auto;
+}
+
+
+section .section-box2 .skill {
+    width: 100%;
+    margin: auto;
+}
+
+section .section-box2 .mainbox1 {
+    width: 80%;
+    height: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox1 .innerbox1 {
+    width: 98%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox2 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox2 .innerbox2 {
+    width: 90%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox3 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox3 .innerbox3 {
+    width: 95%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox4 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox4 .innerbox4 {
+    width: 80%;
+    height: 20px;
+    background-color: #f07b61;
+    text-align: center;
+}
+
+section .section-box2 .mainbox5 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox5 .innerbox5 {
+    width: 87%;
+    height: 20px;
+    background-color: #f07b61;
+    ;
+    text-align: center;
+}
+
+section .section-box2 .mainbox6 {
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    background-color: #153956;
+}
+
+section .section-box2 .mainbox1 .innerbox6 {
+    width: 90%;
+    height: 20px;
+    background-color:#f07b61;
+    text-align: center;
+}
+
 /* Education */
 .Education {
     width: 100%;
