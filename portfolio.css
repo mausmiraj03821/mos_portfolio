@@ -14,7 +14,10 @@
 .fblue{
     color: #02475e;
 }
-
+.fontfamily{
+    font-family: 'Lobster', cursive;
+font-family: 'Merienda', cursive;
+}
 
 .container{
     width:100%;
@@ -41,8 +44,8 @@
 }
 .togglebar{
     position: absolute;
-    left: 85px;
-    bottom: 85px;
+    left: 80px;
+    bottom: 65px;
     font-size: 25px;
     color: white;
 }
@@ -259,7 +262,6 @@ section .section-box2 .mainbox3 {
     width: 80%;
     height: 20px;
     margin: auto;
-
     margin-top: 20px;
     background-color: #153956;
 }
@@ -321,15 +323,21 @@ section .section-box2 .mainbox1 .innerbox6 {
 /* Mywork */
 .work{
     width: 100%;
-    height: 100vh;
+    height: 1655px;
     margin: auto;
     text-align: center;
+}
+hr{
+    width: 5%;
+    border: 1px solid #153956;
+    background-color: #153956;
+    margin: auto;
 }
 
 /* Myintro */
 .Login{
     width: 100%;
-height: 327px;
+height: 400px;
 justify-content: space-around;
 box-sizing: border-box;
 
@@ -338,7 +346,7 @@ box-sizing: border-box;
 .Logimg1{
     width: 25%;
     height: 300px;
-    /* top: 200px; */
+    top: 35px;
     position: relative;
     overflow: hidden;
 }
@@ -374,10 +382,9 @@ box-sizing: border-box;
     bottom: 98px;
 } -->
 .Loginimg1 {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #153956;
-    border-radius: 3%;
+    width: 265px;
+    height: 285px;
+    box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 43%);
 
 }
 .fleft{
@@ -399,12 +406,13 @@ box-sizing: border-box;
 /* Contact */
 .contact{
     width: 100%;
+    height: 400px;
     box-sizing: border-box;
 }
 /* Contactform */
 .contactform{
     width: 33.33%;
-    height: 300px;
+    height: 350px;
     background-color: #f07b61;
 
 }
@@ -434,13 +442,13 @@ box-sizing: border-box;
 /* Contactmap */
 .contactmap{
     width: 33.33%;
-    height: 300px;
+    height: 350px;
 
 }
 /* Contactinfo */
 .contactinfo{
     width: 33.33%;
-    height: 300px;
+    height: 350px;
     font-size: 23px;
     background-color: #f07b61;
 
@@ -797,7 +805,9 @@ section .section-box2 .mainbox1 .innerbox6 {
 }
 
 }
-
+@media only screen and (max-width:425px) {
+    
+}
 
 
 
